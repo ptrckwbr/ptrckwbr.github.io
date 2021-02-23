@@ -1,0 +1,76 @@
+/* ================================================================================
+        ___ ___ ___ 
+       / __/ __/ __|
+      | (__\__ \__ \
+       \___|___/___/
+
+      Cascading Style Sheet
+
+================================================================================ */
+* {
+	margin: 0;
+	font-size: 1em;
+}
+body {
+	height: 100%;
+	
+	font-family: 'Lato', sans-serif;
+	background-color: #f9f8f5;
+}
+table {
+	border: none;
+	height: 100%;
+	width: 100%;
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	
+	text-align: center;
+}
+
+#cartoon {
+	height: 11.5em;
+	display: block;
+	margin: 0 auto 1.8em auto;
+}
+#text {
+	height: 2.5em;
+	display: block;
+	margin: 0 auto;
+}
+
+.egress {
+	display: block;
+	margin: 1.8em auto 0 auto;
+	text-align: center;
+	height: 1.925em;
+	vertical-align: middle;
+	border: none;
+}
+.icon {
+	width: 1.925em;
+	height: 1.925em;
+}
+svg {
+	fill: #aaa;
+}
+.linkedin:hover { fill: #2F65BC; }
+.facebook:hover { fill: #3A78EA; }
+.github:hover { fill: #530F59; }
+.instagram:hover { fill: #B72868; }
+.email:hover { fill: #418DEF; }
+.footer {
+	line-height: 2.4em;
+	height: 2.4em;
+	color: #e5e3e1;
+	font-size: 0.7em;
+}
+a {
+	display: inline-block;
+	color: none;
+	height: 1.925em;
+	margin: 0 0.375em;
+}
